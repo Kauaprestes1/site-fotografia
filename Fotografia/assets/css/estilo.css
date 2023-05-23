@@ -1,0 +1,30 @@
+#intro-example {
+    height: 400px;
+}
+
+@media (min-width: 992px) {
+    #intro-example {
+        height: 600px;
+    }
+}
+
+.bg-image {
+    background-image: url('../imgs/background-index.jpg');
+}
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#btn-hover:hover {
+    background-color: #f4e5b4;
+    color: black;
+}
+
+/* Formulario de Orçamento */
+.bg-image-orcamento {
+    background-image: url('../imgs/background-orcamento.jpg');
+    background-size: cover;
+    background-position: center;
+}
+

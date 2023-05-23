@@ -1,0 +1,28 @@
+#intro-example {
+    height: 400px;
+}
+
+@media (min-width: 992px) {
+    #intro-example {
+        height: 600px;
+    }
+}
+
+.bg-image {
+    background-image: url('../assets/imgs/grama-de-verao-com-paisagem-ceu-da-luz-solar-fundo-natural.jpg');
+}
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#btn-hover:hover {
+    background-color: #f4e5b4;
+    color: black;
+}
+
+/* Tela de orçamento */
+.bg-image-orcamento {
+    background-size: cover;
+    background-position: left;
+}
